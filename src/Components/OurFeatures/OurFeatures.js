@@ -16,9 +16,9 @@ const OurFeatures = () => {
      
                </div>
              
-               <div class="col-12 col-md-6  ">
+               <div class="col-12 col-md-6" style={{textAlign: 'justify'}}>
                    <div>
-                   <h3 style={{color: ' #2F327D',marginLeft:'-185px'}} >A <span style={{color: '#F48C06'}}>user interface</span> designed <br/> for the classroom</h3>
+                   <h4 style={{color: ' #2F327D'}} >A <span style={{color: '#F48C06'}}>user interface</span> designed <br/> for the classroom</h4>
                    
                    </div>
                   
