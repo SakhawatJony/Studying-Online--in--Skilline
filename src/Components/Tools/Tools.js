@@ -3,7 +3,6 @@ import TeacherBg from './../../image/Group 122.png'
 
 const Tools = () => {
     return (
-        <>
         <div className='container mt-5'>
                 <div className="row align-items-center pt-5">
                 <div style={{textAlign: 'justify'}} className="col-12 col-md-6 text-secondary">
@@ -25,8 +24,6 @@ Teachers can handout assignments in real-time for students to complete and submi
 
         </div>
         </div>
-            
-        </>
     );
 };
 

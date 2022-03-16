@@ -5,15 +5,12 @@ import icons2 from './../../image/02.png'
 import icons3 from './../../image/03.png'
 
 const OurFeatures = () => {
-    return (
-        <>
+    return (  
         <div className='container mt-5'>
                <h2 className='' style={{color: ' #2F327D'}} >Our 
 <span style={{color: '#F48C06'}} > Features</span></h2>
                <p className=" text-secondary ">This very extraordinary feature, can make learning activities more efficient!!!</p>
-              
-
-               <div className="row  pt-5 g-4">
+               <div className="row  pt-5">
                <div className="col-12 col-md-6">
                <img  style={{width:'100%'}} alt="" src={featuresBg}/>
      
@@ -55,7 +52,7 @@ const OurFeatures = () => {
       
        </div>
            
-       </>
+     
     );
 };
 

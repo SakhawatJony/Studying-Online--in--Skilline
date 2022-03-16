@@ -5,7 +5,6 @@ import STUDENTS from './../../image/Group 23.png'
 
 const Skilline = () => {
     return (
-        <>
          <div  className='container mt-5'>
                 <h3  style={{color: ' #2F327D'}} >What is
  <span style={{color: '#F48C06'}} > Skilline?</span></h3>
@@ -23,7 +22,7 @@ const Skilline = () => {
 
         /> 
                 </div>
-        <div style={{marginTop:'-235px',color: '#FFFFFF',marginLeft:'220px'}} className='position-absolute'>
+        <div style={{marginTop:'-235px',color: '#FFFFFF',marginLeft:'100px'}} className='position-absolute'>
             <h5>FOR INSTRUCTORS</h5>
             <button type="button" style={{color: '#FFFFFF',border: '1px solid #FFFFFF'}} class="  btn btn-md  rounded-pill ">Start a class today </button>
         </div>
@@ -37,7 +36,7 @@ const Skilline = () => {
           src={STUDENTS}   
         />
                 </div>
-                  <div style={{marginTop:'-235px',color: '#FFFFFF',marginLeft:'220px'}} className='position-absolute'>
+                  <div style={{marginTop:'-235px',color: '#FFFFFF',marginLeft:'110px'}} className='position-absolute'>
             <h5>FOR STUDENTS</h5>
             <button type="button" style={{background: '#23BDEE',color: '#FFFFFF'}} class="  btn btn-md rounded-pill ">Enter access code </button>
         </div> 
@@ -50,7 +49,7 @@ const Skilline = () => {
        
         </div>
             
-        </>
+
     );
 };
 

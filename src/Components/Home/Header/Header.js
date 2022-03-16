@@ -3,9 +3,6 @@ import bg from './../../../image/bg.png'
 
 const Header = () => {
     return (
-        <>
-    
-
         <div className='container'>
         <div className="row  pt-5">
                 <div className="col-12 col-md-6 justify-content-evenly pt-5">
@@ -28,8 +25,6 @@ const Header = () => {
                
             </div>
         </div>
-        
-        </>
     );
 };
 

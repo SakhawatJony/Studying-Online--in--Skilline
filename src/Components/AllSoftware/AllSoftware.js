@@ -5,7 +5,6 @@ const AllSoftware = ({soft}) => {
 
     const {img,name,description}=soft;
     return (
-        <>
         <Col>
       <Card style={{height:'250px'}} className='justify-content-center align-items-center border-0 shadow p-3 mb-5 bg-body rounded'>
         <Card.Img variant="top" style={{width:'100px',height:'100px',marginTop:'-50px'}} src={soft.img} />
@@ -18,10 +17,6 @@ const AllSoftware = ({soft}) => {
         </Card.Body>
       </Card>
     </Col>
-     
-
-            
-        </>
     );
 };
 

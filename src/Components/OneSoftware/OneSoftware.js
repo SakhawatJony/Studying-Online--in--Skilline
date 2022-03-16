@@ -26,8 +26,6 @@ const OneSoftware = () => {
         }
     ]
     return (
-        <>
-
         <div className='container mt-5'>
                 <div>
                 <h3 className='' style={{color: '#F48C06'}} >All-In-One <span style={{color: '#2F327D'}} > Cloud Software.</span></h3>
@@ -53,7 +51,7 @@ const OneSoftware = () => {
 
         </div>
             
-        </>
+        
     );
 };
 

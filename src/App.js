@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import Home from './Components/Home/Home';
 import TrustedCompanies from './Components/TrustedCompanies/TrustedCompanies';
@@ -8,6 +8,7 @@ import ClassRoom from './Components/ClassRoom/ClassRoom';
 import OurFeatures from './Components/OurFeatures/OurFeatures';
 import Tools from './Components/Tools/Tools';
 import Footer from './Shared/Footer/Footer';
+import AllNews from './Components/AllNews/AllNews';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
      <ClassRoom></ClassRoom>
      <OurFeatures></OurFeatures>
      <Tools></Tools>
+     <AllNews></AllNews>
      <Footer></Footer>
        
     </div>

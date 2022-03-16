@@ -4,7 +4,6 @@ import Logo from './../image/LOGO.png'
 
 const Navagation = () => {
     return (
-        <>
            <Navbar  expand="lg">
   <Container>
     <Navbar.Brand href="#"><img
@@ -32,7 +31,6 @@ const Navagation = () => {
     </Navbar.Collapse>
   </Container>
 </Navbar> 
-        </>
     );
 };
 
